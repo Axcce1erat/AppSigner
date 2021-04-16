@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF7E46A2629DF9900B00759 /* AppSignerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E4692629DF9900B00759 /* AppSignerApp.swift */; };
+		AAF7E46C2629DF9900B00759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E46B2629DF9900B00759 /* ContentView.swift */; };
+		AAF7E46E2629DF9F00B00759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF7E46D2629DF9F00B00759 /* Assets.xcassets */; };
+		AAF7E4712629DF9F00B00759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF7E4702629DF9F00B00759 /* Preview Assets.xcassets */; };
+		AAF7E47D2629DF9F00B00759 /* AppSignerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E47C2629DF9F00B00759 /* AppSignerTests.swift */; };
+		AAF7E4882629DF9F00B00759 /* AppSignerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E4872629DF9F00B00759 /* AppSignerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAF7E4792629DF9F00B00759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF7E45E2629DF9900B00759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF7E4652629DF9900B00759;
+			remoteInfo = AppSigner;
+		};
+		AAF7E4842629DF9F00B00759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF7E45E2629DF9900B00759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF7E4652629DF9900B00759;
+			remoteInfo = AppSigner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAF7E4662629DF9900B00759 /* AppSigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF7E4692629DF9900B00759 /* AppSignerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSignerApp.swift; sourceTree = "<group>"; };
+		AAF7E46B2629DF9900B00759 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAF7E46D2629DF9F00B00759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF7E4702629DF9F00B00759 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAF7E4722629DF9F00B00759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF7E4732629DF9F00B00759 /* AppSigner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppSigner.entitlements; sourceTree = "<group>"; };
+		AAF7E4782629DF9F00B00759 /* AppSignerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSignerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF7E47C2629DF9F00B00759 /* AppSignerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSignerTests.swift; sourceTree = "<group>"; };
+		AAF7E47E2629DF9F00B00759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF7E4832629DF9F00B00759 /* AppSignerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSignerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF7E4872629DF9F00B00759 /* AppSignerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSignerUITests.swift; sourceTree = "<group>"; };
+		AAF7E4892629DF9F00B00759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF7E4632629DF9900B00759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF7E4752629DF9F00B00759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF7E4802629DF9F00B00759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAF7E45D2629DF9900B00759 = {
+			isa = PBXGroup;
+			children = (
+				AAF7E4682629DF9900B00759 /* AppSigner */,
+				AAF7E47B2629DF9F00B00759 /* AppSignerTests */,
+				AAF7E4862629DF9F00B00759 /* AppSignerUITests */,
+				AAF7E4672629DF9900B00759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF7E4672629DF9900B00759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7E4662629DF9900B00759 /* AppSigner.app */,
+				AAF7E4782629DF9F00B00759 /* AppSignerTests.xctest */,
+				AAF7E4832629DF9F00B00759 /* AppSignerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF7E4682629DF9900B00759 /* AppSigner */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7E4692629DF9900B00759 /* AppSignerApp.swift */,
+				AAF7E46B2629DF9900B00759 /* ContentView.swift */,
+				AAF7E46D2629DF9F00B00759 /* Assets.xcassets */,
+				AAF7E4722629DF9F00B00759 /* Info.plist */,
+				AAF7E4732629DF9F00B00759 /* AppSigner.entitlements */,
+				AAF7E46F2629DF9F00B00759 /* Preview Content */,
+			);
+			path = AppSigner;
+			sourceTree = "<group>";
+		};
+		AAF7E46F2629DF9F00B00759 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7E4702629DF9F00B00759 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAF7E47B2629DF9F00B00759 /* AppSignerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7E47C2629DF9F00B00759 /* AppSignerTests.swift */,
+				AAF7E47E2629DF9F00B00759 /* Info.plist */,
+			);
+			path = AppSignerTests;
+			sourceTree = "<group>";
+		};
+		AAF7E4862629DF9F00B00759 /* AppSignerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF7E4872629DF9F00B00759 /* AppSignerUITests.swift */,
+				AAF7E4892629DF9F00B00759 /* Info.plist */,
+			);
+			path = AppSignerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF7E4652629DF9900B00759 /* AppSigner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF7E48C2629DF9F00B00759 /* Build configuration list for PBXNativeTarget "AppSigner" */;
+			buildPhases = (
+				AAF7E4622629DF9900B00759 /* Sources */,
+				AAF7E4632629DF9900B00759 /* Frameworks */,
+				AAF7E4642629DF9900B00759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppSigner;
+			productName = AppSigner;
+			productReference = AAF7E4662629DF9900B00759 /* AppSigner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAF7E4772629DF9F00B00759 /* AppSignerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF7E48F2629DF9F00B00759 /* Build configuration list for PBXNativeTarget "AppSignerTests" */;
+			buildPhases = (
+				AAF7E4742629DF9F00B00759 /* Sources */,
+				AAF7E4752629DF9F00B00759 /* Frameworks */,
+				AAF7E4762629DF9F00B00759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF7E47A2629DF9F00B00759 /* PBXTargetDependency */,
+			);
+			name = AppSignerTests;
+			productName = AppSignerTests;
+			productReference = AAF7E4782629DF9F00B00759 /* AppSignerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAF7E4822629DF9F00B00759 /* AppSignerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF7E4922629DF9F00B00759 /* Build configuration list for PBXNativeTarget "AppSignerUITests" */;
+			buildPhases = (
+				AAF7E47F2629DF9F00B00759 /* Sources */,
+				AAF7E4802629DF9F00B00759 /* Frameworks */,
+				AAF7E4812629DF9F00B00759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF7E4852629DF9F00B00759 /* PBXTargetDependency */,
+			);
+			name = AppSignerUITests;
+			productName = AppSignerUITests;
+			productReference = AAF7E4832629DF9F00B00759 /* AppSignerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF7E45E2629DF9900B00759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AAF7E4652629DF9900B00759 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AAF7E4772629DF9F00B00759 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AAF7E4652629DF9900B00759;
+					};
+					AAF7E4822629DF9F00B00759 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AAF7E4652629DF9900B00759;
+					};
+				};
+			};
+			buildConfigurationList = AAF7E4612629DF9900B00759 /* Build configuration list for PBXProject "AppSigner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF7E45D2629DF9900B00759;
+			productRefGroup = AAF7E4672629DF9900B00759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF7E4652629DF9900B00759 /* AppSigner */,
+				AAF7E4772629DF9F00B00759 /* AppSignerTests */,
+				AAF7E4822629DF9F00B00759 /* AppSignerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF7E4642629DF9900B00759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF7E4712629DF9F00B00759 /* Preview Assets.xcassets in Resources */,
+				AAF7E46E2629DF9F00B00759 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF7E4762629DF9F00B00759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF7E4812629DF9F00B00759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF7E4622629DF9900B00759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF7E46C2629DF9900B00759 /* ContentView.swift in Sources */,
+				AAF7E46A2629DF9900B00759 /* AppSignerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF7E4742629DF9F00B00759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF7E47D2629DF9F00B00759 /* AppSignerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF7E47F2629DF9F00B00759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF7E4882629DF9F00B00759 /* AppSignerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAF7E47A2629DF9F00B00759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF7E4652629DF9900B00759 /* AppSigner */;
+			targetProxy = AAF7E4792629DF9F00B00759 /* PBXContainerItemProxy */;
+		};
+		AAF7E4852629DF9F00B00759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF7E4652629DF9900B00759 /* AppSigner */;
+			targetProxy = AAF7E4842629DF9F00B00759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAF7E48A2629DF9F00B00759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAF7E48B2629DF9F00B00759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AAF7E48D2629DF9F00B00759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppSigner/AppSigner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AppSigner/Preview Content\"";
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AppSigner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Telekom-IHUP.AppSigner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AAF7E48E2629DF9F00B00759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppSigner/AppSigner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AppSigner/Preview Content\"";
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AppSigner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Telekom-IHUP.AppSigner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AAF7E4902629DF9F00B00759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				INFOPLIST_FILE = AppSignerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Telekom-IHUP.AppSignerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppSigner.app/Contents/MacOS/AppSigner";
+			};
+			name = Debug;
+		};
+		AAF7E4912629DF9F00B00759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				INFOPLIST_FILE = AppSignerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Telekom-IHUP.AppSignerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppSigner.app/Contents/MacOS/AppSigner";
+			};
+			name = Release;
+		};
+		AAF7E4932629DF9F00B00759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				INFOPLIST_FILE = AppSignerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Telekom-IHUP.AppSignerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AppSigner;
+			};
+			name = Debug;
+		};
+		AAF7E4942629DF9F00B00759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VZVFUQTSQC;
+				INFOPLIST_FILE = AppSignerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.Telekom-IHUP.AppSignerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AppSigner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF7E4612629DF9900B00759 /* Build configuration list for PBXProject "AppSigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF7E48A2629DF9F00B00759 /* Debug */,
+				AAF7E48B2629DF9F00B00759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF7E48C2629DF9F00B00759 /* Build configuration list for PBXNativeTarget "AppSigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF7E48D2629DF9F00B00759 /* Debug */,
+				AAF7E48E2629DF9F00B00759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF7E48F2629DF9F00B00759 /* Build configuration list for PBXNativeTarget "AppSignerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF7E4902629DF9F00B00759 /* Debug */,
+				AAF7E4912629DF9F00B00759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF7E4922629DF9F00B00759 /* Build configuration list for PBXNativeTarget "AppSignerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF7E4932629DF9F00B00759 /* Debug */,
+				AAF7E4942629DF9F00B00759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF7E45E2629DF9900B00759 /* Project object */;
+}
