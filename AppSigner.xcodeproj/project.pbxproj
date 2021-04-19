@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,16 @@
 		AAF7E4712629DF9F00B00759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF7E4702629DF9F00B00759 /* Preview Assets.xcassets */; };
 		AAF7E47D2629DF9F00B00759 /* AppSignerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E47C2629DF9F00B00759 /* AppSignerTests.swift */; };
 		AAF7E4882629DF9F00B00759 /* AppSignerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E4872629DF9F00B00759 /* AppSignerUITests.swift */; };
+		AAFF30A7262DBE7A00E4FD7D /* Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30A6262DBE7900E4FD7D /* Preparation.swift */; };
+		AAFF30A8262DBE7A00E4FD7D /* Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30A6262DBE7900E4FD7D /* Preparation.swift */; };
+		AAFF30A9262DBE7A00E4FD7D /* Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30A6262DBE7900E4FD7D /* Preparation.swift */; };
+		AAFF30B1262DBE8200E4FD7D /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30B0262DBE8200E4FD7D /* FileHandler.swift */; };
+		AAFF30B2262DBE8200E4FD7D /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30B0262DBE8200E4FD7D /* FileHandler.swift */; };
+		AAFF30B3262DBE8200E4FD7D /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30B0262DBE8200E4FD7D /* FileHandler.swift */; };
+		AAFF30BB262DBEEA00E4FD7D /* CoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30BA262DBEEA00E4FD7D /* CoreHandler.swift */; };
+		AAFF30BC262DBEEA00E4FD7D /* CoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30BA262DBEEA00E4FD7D /* CoreHandler.swift */; };
+		AAFF30BD262DBEEA00E4FD7D /* CoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF30BA262DBEEA00E4FD7D /* CoreHandler.swift */; };
+		AAFF30C3262DC07700E4FD7D /* SwiftShell in Frameworks */ = {isa = PBXBuildFile; productRef = AAFF30C2262DC07700E4FD7D /* SwiftShell */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,9 @@
 		AAF7E4832629DF9F00B00759 /* AppSignerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSignerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF7E4872629DF9F00B00759 /* AppSignerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSignerUITests.swift; sourceTree = "<group>"; };
 		AAF7E4892629DF9F00B00759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFF30A6262DBE7900E4FD7D /* Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preparation.swift; sourceTree = "<group>"; };
+		AAFF30B0262DBE8200E4FD7D /* FileHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHandler.swift; sourceTree = "<group>"; };
+		AAFF30BA262DBEEA00E4FD7D /* CoreHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFF30C3262DC07700E4FD7D /* SwiftShell in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +112,9 @@
 			children = (
 				AAF7E4692629DF9900B00759 /* AppSignerApp.swift */,
 				AAF7E46B2629DF9900B00759 /* ContentView.swift */,
+				AAFF30BA262DBEEA00E4FD7D /* CoreHandler.swift */,
+				AAFF30A6262DBE7900E4FD7D /* Preparation.swift */,
+				AAFF30B0262DBE8200E4FD7D /* FileHandler.swift */,
 				AAF7E46D2629DF9F00B00759 /* Assets.xcassets */,
 				AAF7E4722629DF9F00B00759 /* Info.plist */,
 				AAF7E4732629DF9F00B00759 /* AppSigner.entitlements */,
@@ -148,6 +165,9 @@
 			dependencies = (
 			);
 			name = AppSigner;
+			packageProductDependencies = (
+				AAFF30C2262DC07700E4FD7D /* SwiftShell */,
+			);
 			productName = AppSigner;
 			productReference = AAF7E4662629DF9900B00759 /* AppSigner.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +239,9 @@
 				Base,
 			);
 			mainGroup = AAF7E45D2629DF9900B00759;
+			packageReferences = (
+				AAFF30C1262DC07700E4FD7D /* XCRemoteSwiftPackageReference "SwiftShell" */,
+			);
 			productRefGroup = AAF7E4672629DF9900B00759 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,6 +286,9 @@
 			files = (
 				AAF7E46C2629DF9900B00759 /* ContentView.swift in Sources */,
 				AAF7E46A2629DF9900B00759 /* AppSignerApp.swift in Sources */,
+				AAFF30B1262DBE8200E4FD7D /* FileHandler.swift in Sources */,
+				AAFF30BB262DBEEA00E4FD7D /* CoreHandler.swift in Sources */,
+				AAFF30A7262DBE7A00E4FD7D /* Preparation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFF30B2262DBE8200E4FD7D /* FileHandler.swift in Sources */,
 				AAF7E47D2629DF9F00B00759 /* AppSignerTests.swift in Sources */,
+				AAFF30A8262DBE7A00E4FD7D /* Preparation.swift in Sources */,
+				AAFF30BC262DBEEA00E4FD7D /* CoreHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFF30B3262DBE8200E4FD7D /* FileHandler.swift in Sources */,
 				AAF7E4882629DF9F00B00759 /* AppSignerUITests.swift in Sources */,
+				AAFF30A9262DBE7A00E4FD7D /* Preparation.swift in Sources */,
+				AAFF30BD262DBEEA00E4FD7D /* CoreHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -404,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -419,7 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AppSigner/AppSigner.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AppSigner/Preview Content\"";
 				DEVELOPMENT_TEAM = VZVFUQTSQC;
@@ -433,6 +465,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.Telekom-IHUP.AppSigner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -443,7 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AppSigner/AppSigner.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AppSigner/Preview Content\"";
 				DEVELOPMENT_TEAM = VZVFUQTSQC;
@@ -457,6 +490,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.Telekom-IHUP.AppSigner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -585,6 +619,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAFF30C1262DC07700E4FD7D /* XCRemoteSwiftPackageReference "SwiftShell" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kareman/SwiftShell";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAFF30C2262DC07700E4FD7D /* SwiftShell */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAFF30C1262DC07700E4FD7D /* XCRemoteSwiftPackageReference "SwiftShell" */;
+			productName = SwiftShell;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAF7E45E2629DF9900B00759 /* Project object */;
 }
